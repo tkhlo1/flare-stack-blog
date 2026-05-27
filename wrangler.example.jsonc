@@ -10,21 +10,21 @@
   "keep_vars": true,
   "routes": [
     {
-      "pattern": "DOMAIN_PLACEHOLDER",
+      "pattern": "tkai.cc.cd",
       "custom_domain": true
     }
   ],
   "d1_databases": [
     {
       "binding": "DB",
-      "database_id": "D1_DATABASE_ID",
+      "database_id": "050b6931-d2c6-4dc3-94d5-851d3276357d",
       "migrations_dir": "migrations",
       "remote": true
     }
   ],
   "r2_buckets": [
     {
-      "bucket_name": "bucket-name-placeholder",
+      "bucket_name": "blog-r2",
       "binding": "R2",
       "remote": true
     }
@@ -32,12 +32,12 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "KV_NAMESPACE_ID",
+      "id": "94881217c3994c819c46d587be616fb5",
       "remote": true
     },
     {
       "binding": "OAUTH_KV",
-      "id": "KV_NAMESPACE_ID",
+      "id": "94881217c3994c819c46d587be616fb5",
       "remote": true
     }
   ],
